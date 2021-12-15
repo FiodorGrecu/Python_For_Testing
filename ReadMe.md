@@ -1,1 +1,1 @@
-A whole new stetp by step tutorialabout Python Testing
+A whole new step by step tutorialabout Python Testing
