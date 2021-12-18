@@ -33,3 +33,23 @@ def test_devide_by_zero():
         num = 1 / 0
     
     assert 'division by zero' in str(e.value)
+
+    # Multiplication test ideas 
+
+    # two positive integers 
+    # identity: multiplplying any number by 1
+    # zero: multiplying any number by 0
+    # positive by a negative
+    # negative by a negative
+    #  multiply floating numbers
+
+    # def test_multiply_two_positive_int():
+    #     assert 2 * 3 == 6
+
+    # def test_multiply_two_positive_int():
+    #     assert 1 * 99 == 99
+    
+    # def test_multiply_two_positive_int():
+    #     assert 0 * 100 == 0
+
+#   
