@@ -52,4 +52,20 @@ def test_devide_by_zero():
     # def test_multiply_two_positive_int():
     #     assert 0 * 100 == 0
 
-#   
+#----------------------------------------------------------------------------------------
+# A test function that verifies an exception
+#----------------------------------------------------------------------------------------
+
+
+products = [
+    (2, 3, 6),               # two positive
+    (1, 99, 99),             # identity
+    (0, 99, 0),              # zero
+    (3, -4, -12),            # positive
+    (-5, -5, 25),           # negative
+    (2.5, 6.7, 16.75),       # floats
+]
+
+@pytest.mark.parametrize('a, b, product', products)
+def test_multiplication(a, b, product):
+    assert a * b == product
