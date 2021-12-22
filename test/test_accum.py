@@ -38,6 +38,6 @@ def test_accumulator_add_twice():
 
 
 def test_accumulator_cannot_set_count_directly():
-    accum = Accumulator()
-    with pytest.raises(AttributeError, match=r"can't set attribute") as e:
-        accum.count == 10
+  accum = Accumulator()
+  with pytest.raises(AttributeError, match=r"can't set attribute") as e:
+    accum.count = 10
